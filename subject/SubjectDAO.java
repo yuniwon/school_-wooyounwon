@@ -1,7 +1,10 @@
-package school_원우연v4;
+package subject;
 
 import java.util.ArrayList;
 import java.util.Vector;
+
+import student.Student;
+import utils.Utils;
 
 public class SubjectDAO {
 	public ArrayList<Subject> subList;

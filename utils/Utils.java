@@ -1,4 +1,4 @@
-package school_원우연v4;
+package utils;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+
+import student.Student;
+import subject.Subject;
 
 public class Utils {
 	private static Scanner sc = new Scanner(System.in);

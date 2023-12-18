@@ -1,11 +1,15 @@
-package school_원우연v4;
+package student;
 
 import java.util.ArrayList;
 
-public class StudentDAO {
-	ArrayList<Student> stuList;
+import subject.Subject;
+import subject.SubjectDAO;
+import utils.Utils;
 
-	StudentDAO() {
+public class StudentDAO {
+	public ArrayList<Student> stuList;
+
+	public StudentDAO() {
 		stuList = new ArrayList<Student>();
 		loadData();
 

@@ -1,4 +1,9 @@
-package school_원우연v4;
+package Controller;
+
+import student.StudentDAO;
+import subject.SubjectDAO;
+import utils.Utils;
+
 /*
  * 
  *  무조건 파일 업로드 먼저
@@ -8,7 +13,7 @@ package school_원우연v4;
 public class Controller {
 	public StudentDAO stuDAO;
 	public SubjectDAO subDAO;
-	Controller(){
+	public Controller(){
 		stuDAO = new StudentDAO();
 		subDAO = new SubjectDAO();
 		

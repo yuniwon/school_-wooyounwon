@@ -1,4 +1,4 @@
-package school_원우연v4;
+package student;
 
 public class Student {
 	private int stuNo;

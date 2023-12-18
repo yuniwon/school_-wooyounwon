@@ -1,5 +1,5 @@
-package school_원우연v4;
-
+package Main;
+import Controller.Controller;
 public class _Main {
 
 	public static void main(String[] args) {
